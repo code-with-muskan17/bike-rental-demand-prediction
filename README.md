@@ -1,5 +1,7 @@
 # Bike Rental Demand Prediction
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://code-with-muskan17-bike-rental-demand-prediction-app-jjcvkq.streamlit.app/)
+
 Predicts hourly bike rental demand from weather and time data, using the UCI Bike Sharing Dataset (2011-2012). Includes EDA, model comparison across 6 algorithms, hyperparameter tuning, and a Streamlit app for live predictions.
 
 XGBoost ended up being the best model after tuning:
