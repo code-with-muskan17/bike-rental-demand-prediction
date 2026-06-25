@@ -82,6 +82,16 @@ June, 5 PM, Wednesday, summer, clear weather, working day → predicted 794 rent
 
 January, 3 AM, Sunday, heavy rain, non-working day → predicted 0 rentals
 
+## Demand Levels
+
+Rental demand is categorized using quartile-based thresholds derived from the UCI Bike Sharing Dataset (`Q1 = 40`, `Q3 = 281`).
+
+| Demand Level | Rental Count |
+|--------------|--------------|
+| 🔴 Low Demand | 0–40 |
+| 🟡 Medium Demand | 41–280 |
+| 🟢 High Demand | 281+ |
+
 ## Limitations
 
 - The model is trained only on 2011–2012 data and cannot reliably predict for other years without retraining on newer data.
